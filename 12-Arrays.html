@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Arrays in JavaScript</h2>
+</body>
+<script>
+    // Hints: Arrays are mutable and Can be Changed, While Strings are un-mutable and Can't be Changed...
+
+    let Marks = [92, 90, 78, 88, 50];
+    console.log(Marks);
+    console.log("The length of this Array is :", Marks.length);
+    console.log(Marks[0]);
+    console.log(Marks[1]);
+    console.log(Marks[2]);
+    console.log(Marks[3]);
+    console.log(Marks[4]);
+    console.log(Marks[5]);   // It will print undefined because index 5 does not exist..
+    Marks[5] = 99;
+    console.log(Marks[5]);   // Now it will print index 5 because we Add a new value to the array..
+    Marks[4] = 55;
+    console.log(Marks[4]);  // Changing the value of an Array..
+    console.log(Marks);
+   
+    // let arr = [0,1,2,3,4,5,6,7,8,9];
+    
+    // for (let i = 0; i < arr.length; i++) {
+     //    console.log(arr);
+   //  }
+
+</script>
+</html>
